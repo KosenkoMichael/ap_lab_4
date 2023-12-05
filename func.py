@@ -127,6 +127,7 @@ def show_temp_graph_median_average(df: pd.DataFrame, param: str, month: int, yea
 
 
 df = get_processed_df("dataset.csv")
+# print(df)
 # print(get_statistical_info(df, "Day celsius temperature"))
 # print(celsius_temp_filtration(df, 39, "Day"))
 # print(date_filtration(df, "2021-11-11", "2021-11-22"))
